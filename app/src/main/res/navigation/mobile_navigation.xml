@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_store">
+
+    <fragment
+        android:id="@+id/navigation_store"
+        android:name="com.cibertec.bodegaubita.ui.store.StoreFragment"
+        android:label="@string/title_store"
+        tools:layout="@layout/fragment_store" />
+
+    <fragment
+        android:id="@+id/navigation_explore"
+        android:name="com.cibertec.bodegaubita.ui.explore.ExploreFragment"
+        android:label="@string/title_explore"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/navigation_cart"
+        android:name="com.cibertec.bodegaubita.ui.cart.CartFragment"
+        android:label="@string/title_cart"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.cibertec.bodegaubita.ui.account.AccountFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.cibertec.bodegaubita.ui.favorite.FavoriteFragment"
+        android:label="@string/title_fav"
+        tools:layout="@layout/fragment_favorite" />
+</navigation>

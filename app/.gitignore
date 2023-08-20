@@ -1,0 +1,11 @@
+# Generated Android assets
+*.apk
+*.aar
+*.dex
+
+# Generated navigation files
+**/.navigation/
+
+# App-specific configuration files (like secrets)
+google-services.json
+src/main/res/values/secrets.xml

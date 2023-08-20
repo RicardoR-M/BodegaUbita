@@ -1,0 +1,19 @@
+# Gradle Wrapper
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# Gradle
+**/build/
+**/captures/
+**/gradle/
+
+# IDE-specific
+**/.idea/
+**/*.iml
+
+# Local configuration files
+local.properties
+
+# System-specific files
+**/.DS_Store
+**/Thumbs.db
